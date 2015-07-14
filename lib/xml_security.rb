@@ -246,7 +246,7 @@ module XMLSecurity
           "//ds:Signature",
           {"ds"=>DSIG}
         )
-        element.remove
+        #element.remove
       end
 
       # verify signature
